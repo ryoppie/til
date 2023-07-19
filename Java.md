@@ -64,6 +64,41 @@ class Main {
  <br>
 }
 <br>
+<br>
+下記のコードを記述する
+<br>
+<br>
+
+class Main { 
+<br>
+  public static void main(String[] args) {
+  <br>
+    int radius;
+    <br>
+    radius = 5;
+    <br>
+    System.out.println(radius * radius * 3.14);
+    <br>
+  }
+  <br>
+}
+<br>
+<br>
+実行結果：78.5
+<br>
+<br>
+コードの意味
+<br>
+① int radius;によって、int型の変数radiusを宣言する
+<br>
+② radius = 5;によって、変数radiusに整数の5を代入する
+<br>
+③ printlnを実行して、計算結果を出力する。
+<br>
+<br>
+このように、Javaで変数を使用する際には、まず型の宣言が必要。
+<br>
+ただし、Javaには「型推論」と呼ばれる仕組みがあり、宣言に関するコードを省略することができる。
 
 ## 型推論
 
