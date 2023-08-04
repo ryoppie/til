@@ -244,6 +244,30 @@ addメソッドを使用すると、要素はArrayListの末尾に追加され�
 配列から要素を取り出す際と同様に、「1番目」の要素を取り出したい時は、インデックスとして「0」を指定する。
 <br>
 
+## 条件分岐
+
+Javaのif文は、Rubyとは記述方法が若干異なるものの、使い方はほとんど同じ<br>
+if文例文<br>
+class Main { <br>
+  public static void main(String[] args) { <br>
+    int value = 3;<br>
+if (value > 0){ <br>
+System.out.println("値は正です"); <br>
+  } <br>
+ } <br>
+} <br>
+<br>
+→「値は正です」と出力される
+<br>
+<br>
+if文は以下のように記述する<br>
+if ( 条件式 ) { <br>
+  条件式を満たす時に実行する処理 <br>
+} <br>
+<br>
+Rubyでの記述方法と異なる点<br>
+・条件式を（）で囲む必要があること<br>
+・行いたい処理を{}で囲む必要があること<br>
 
 
 
