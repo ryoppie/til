@@ -384,8 +384,33 @@ private：同一クラス内からのみアクセスできる<br>
 public：どのクラスからでもアクセスできる<br>
 <br>
 
+## static修飾子 
 
-
+staticは「静的」という意味の英単語。静的とは、状態が変化しないことを意味する。
+<br>
+メソッドの定義の際に、staticをつけることで「静的メソッド」として定義される。<br>
+静的メソッドは、「クラスメソッド」とも呼ばれる。
+<br>
+<br>
+メソッドを実行する方法はシンプルで、メソッド名が「sayHello」の場合は、以下のように記述することでメソッドを呼び出すことができる。<br>
+sayHello(); <br>
+引数が必要ないメソッドでも、かっこは省略できないことに注意
+<br>
+<br>
+メソッド使用例<br>
+class Main { <br>
+  public static void main(String[] args) { <br>
+    var answer = square(5); <br>
+    System.out.println(answer); <br>
+  } <br>
+<br>
+  public static int square(int number){ <br>
+    return number * number; <br>
+  } <br>
+} <br>
+<br>
+値の２乗を計算するコードとなっているので、引数に「5」を指定すると以下のように「25」と表示される。<br>
+<br>
 
 
 
